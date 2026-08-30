@@ -1,0 +1,15 @@
+# 代码所有者配置
+# 语法：<路径模式> <@用户名 或 @团队名>
+# 当匹配路径的文件发生变更时，对应所有者会被自动要求审查。
+#
+# 请将下方 @zhiyungezhu 替换为实际的维护者用户名或团队（如 @your-org/core-team）。
+# 最后一个匹配规则优先。
+
+# 默认：所有文件由维护者负责
+* @zhiyungezhu
+
+# CI/CD 相关配置
+/.github/ @zhiyungezhu
+
+# 核心源码
+/src/ @zhiyungezhu
